@@ -31,31 +31,6 @@ public class advClock : MonoBehaviour {
 	
 	void Update () {
 
-		if( Input.GetKeyDown(KeyCode.Alpha1)){
-			secondsPerSecond = 1;
-			
-			
-		}
-		else if( Input.GetKeyDown(KeyCode.Alpha2)){
-			secondsPerSecond = 60;
-			
-			
-		}
-		else if( Input.GetKeyDown(KeyCode.Alpha3)){
-			secondsPerSecond = 3600;
-			
-			
-		}
-		else if( Input.GetKeyDown(KeyCode.Alpha4)){
-			secondsPerSecond = 86400;
-			
-			
-		}
-		else if( Input.GetKeyDown(KeyCode.Alpha5)){
-			secondsPerSecond = 2629743;
-			
-			
-		}
 		
 		totalGameSeconds += secondsPerSecond * Time.deltaTime;
 		

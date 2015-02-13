@@ -4609,19 +4609,19 @@ Prefab:
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: Building.Array.data[2]
       value: 
-      objectReference: {fileID: 100006, guid: 234e5e2015342a948ae17ec8868dd5fd, type: 2}
+      objectReference: {fileID: 100006, guid: ef53191a5b028d249bf25edc3e68cda0, type: 2}
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: Building.Array.data[3]
       value: 
-      objectReference: {fileID: 100006, guid: 53a9ba8edc5a8044580cb03f696e39a9, type: 2}
+      objectReference: {fileID: 100006, guid: 234e5e2015342a948ae17ec8868dd5fd, type: 2}
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: Building.Array.data[4]
       value: 
-      objectReference: {fileID: 100006, guid: d1c566ac0e2b1034fb3f811aad355d76, type: 2}
+      objectReference: {fileID: 100006, guid: 53a9ba8edc5a8044580cb03f696e39a9, type: 2}
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: Building.Array.data[5]
       value: 
-      objectReference: {fileID: 100006, guid: d412648a77574f0429d00cfebd92e168, type: 2}
+      objectReference: {fileID: 100006, guid: d1c566ac0e2b1034fb3f811aad355d76, type: 2}
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: Building.Array.data[6]
       value: 
@@ -4636,7 +4636,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
+      propertyPath: SelectedBuilding
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
@@ -14744,19 +14748,19 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 379658137}
   m_GameObject: {fileID: 1218394495}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cd34c9ce1eff4d42a1e65eeca56ad60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedBuilding: 0
+  SelectedBuilding: 1
   Building:
   - {fileID: 0}
   - {fileID: 100004, guid: 474cd78d75915df48a9df529b2dba79c, type: 2}
+  - {fileID: 100006, guid: ef53191a5b028d249bf25edc3e68cda0, type: 2}
   - {fileID: 100006, guid: 234e5e2015342a948ae17ec8868dd5fd, type: 2}
   - {fileID: 100006, guid: 53a9ba8edc5a8044580cb03f696e39a9, type: 2}
   - {fileID: 100006, guid: d1c566ac0e2b1034fb3f811aad355d76, type: 2}
-  - {fileID: 100006, guid: d412648a77574f0429d00cfebd92e168, type: 2}
   - {fileID: 100006, guid: 98ddd0dcaffac4c4abbac63dfc2905e9, type: 2}
   - {fileID: 100004, guid: 877c081050d729047b23d85cc6fad530, type: 2}
   collided: []
