@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Sun
-  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: Stone1_diff
+  m_Shader: {fileID: 5, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 99df2777a875875409941e87868759be, type: 3}
+          m_Texture: {fileID: 2800000, guid: c40845f3311074c4ca7875472376c2c9, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -36,9 +36,9 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Illum
+          name: _Detail
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 6d949a99fc8118547a4c429d82790417, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -49,25 +49,13 @@ Material:
       data:
         first:
           name: _Parallax
-        second: .0387500003
-      data:
-        first:
-          name: _InvFade
-        second: 2.42805982
-      data:
-        first:
-          name: _EmissionLM
-        second: 90
+        second: .0199999996
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .823529422, g: .625999331, b: .302768171, a: 0}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .345588207, g: .182958469, b: .182958469, a: 1}
-      data:
-        first:
-          name: _TintColor
-        second: {r: .375, g: .395999998, b: .0313999988, a: .75}
+        second: {r: .5, g: .5, b: .5, a: 1}
