@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-public class Player : MonoBehaviour {
+public class TestPathfinding : MonoBehaviour {
 	/*How I made it work :
 	 * In the animator, I created a variable called AnimState.
 	 * If AnimState = 1, then the animator switches to Walk
@@ -18,36 +18,36 @@ public class Player : MonoBehaviour {
 	private Animator animator;
 	private bool reachedDest;
 	NavMeshAgent agent;
-
+	
 	// Use this for initialization
 	void Start () {
-	animator = GetComponent<Animator> ();
-	agent = GetComponent<NavMeshAgent> ();
+		animator = GetComponent<Animator> ();
+		agent = GetComponent<NavMeshAgent> ();
 		reachedDest = false;
 	}
-
-
+	
+	
 	// Update is called once per frame
 	void Update()
 	{
-			//Run this check so long as we have not reached our destination (our distance > stopping Distance
-			if ( Vector3.Distance( agent.destination, agent.transform.position) <= agent.stoppingDistance)
+		//Run this check so long as we have not reached our destination (our distance > stopping Distance
+		if ( Vector3.Distance( agent.destination, agent.transform.position) <= agent.stoppingDistance)
+		{
+			//If we DONT have a Path. agent.velocity is a fail safe
+			if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 			{
-				//If we DONT have a Path. agent.velocity is a fail safe
-				if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
-				{
 				//Since we have no path, don't walk
 				animator.SetInteger ("AnimState", 0);
 				//We've reached our destination
 				reachedDest = true;
-				}
-
 			}
+			
+		}
 		//If we havn't reached our destination
 		if(reachedDest == false) {
 			//Walk!
 			animator.SetInteger ("AnimState", 1);
 		}
-
-  }
+		
+	}
 }

@@ -89,6 +89,7 @@ public class BuildManager: MonoBehaviour
 					ghostOn = false;
 				
 					collided.Clear();
+					SelectedBuilding = 0;
 					break;
 				}
 				
