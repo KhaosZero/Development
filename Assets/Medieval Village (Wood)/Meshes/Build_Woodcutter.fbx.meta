@@ -187,6 +187,11 @@ ModelImporter:
     4300066: Plane.004
     4300068: Cube.001
     4300070: Cube
+    6400000: Cube.001
+    6400002: Cube.008
+    6400004: Plane
+    6400006: Plane.000
+    6400008: Plane.004
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -209,7 +214,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1.5
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
