@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 463252}
   - 95: {fileID: 9563252}
+  - 23: {fileID: 2327680}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -121,6 +122,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 463252}
   m_RootOrder: 2
+--- !u!23 &2327680
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163252}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!23 &2363252
 Renderer:
   m_ObjectHideFlags: 1

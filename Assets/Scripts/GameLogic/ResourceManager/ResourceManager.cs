@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using UnityEngine.UI;
+using UnityEngine;
 using System.Collections;
 
 public class ResourceManager : MonoBehaviour {
+	private GameObject go;
+	private AudioManager AudioPlay;
 
 	public int Wood = 100;
 		public int Planks = 50;
@@ -11,9 +14,17 @@ public class ResourceManager : MonoBehaviour {
 		public int Ingots = 50;
 	public int Gold = 1000;
 
+	// Use this for initialization
+	void Start () {
+		go = GameObject.Find("GameAudio");
+		AudioPlay = go.GetComponent<AudioManager> ();
+	}
+	
+
 	public bool Deduct (int costPlanks, int costWood, int costSlabs, int costGold, int costIngots) {
+		int error = 0;
 		if (costPlanks > Planks || costWood > Wood || costSlabs > Slabs || costGold > Gold || costIngots > Ingots) {
-			int error = 0;
+
 			//Find out what we don't have
 			if (costPlanks > Planks) {
 				error++;
@@ -26,7 +37,7 @@ public class ResourceManager : MonoBehaviour {
 			} if (costIngots > Ingots) {
 				error++;
 			}
-			if(error > 1) {
+			if(error >= 2) {
 				//Not enough resources
 				return false;
 			} else {
@@ -34,7 +45,7 @@ public class ResourceManager : MonoBehaviour {
 					//Not enough Planks!
 					return false;
 				} if (costWood > Wood) {
-					//Not enough Wood!
+					AudioPlay.NotEnoughWood();
 					return false;
 				} if (costSlabs > Slabs) {
 					//Not enough Slabs!
@@ -64,7 +75,7 @@ public class ResourceManager : MonoBehaviour {
 			Wood -= cost;
 			return true;
 		} else {
-			return false;
+			return false;;
 			//Play Not Enough Stone!
 		}
 	}
@@ -128,11 +139,9 @@ public class ResourceManager : MonoBehaviour {
 			//Play Not Enough Stone!
 		}
 	}
-
-	// Use this for initialization
-	void Start () {
 	
-	}
+
+
 	
 	// Update is called once per frame
 	void Update () {

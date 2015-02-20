@@ -320,6 +320,7 @@ GameObject:
   - 4: {fileID: 11970664}
   - 205: {fileID: 11970663}
   - 64: {fileID: 11970662}
+  - 23: {fileID: 11970665}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -373,6 +374,27 @@ Transform:
   - {fileID: 1047036437}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!23 &11970665
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1140760666}
+  m_GameObject: {fileID: 11970661}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &16271852
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +592,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 19548770}
   - 95: {fileID: 19548771}
+  - 23: {fileID: 19548772}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -609,6 +632,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &19548772
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2351358, guid: e2c528d98987b0a4ab28f4575785ae73,
+    type: 2}
+  m_PrefabInternal: {fileID: 2074735510}
+  m_GameObject: {fileID: 19548769}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1001 &21116031
 Prefab:
   m_ObjectHideFlags: 0
@@ -2015,6 +2059,7 @@ GameObject:
   - 4: {fileID: 100344341}
   - 205: {fileID: 100344340}
   - 64: {fileID: 100344339}
+  - 23: {fileID: 100344342}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -2068,6 +2113,27 @@ Transform:
   - {fileID: 621237414}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 29
+--- !u!23 &100344342
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 478761581}
+  m_GameObject: {fileID: 100344338}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &102115376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,7 +2220,7 @@ GameObject:
   - 222: {fileID: 106769672}
   - 114: {fileID: 106769671}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtStone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2587,6 +2653,7 @@ GameObject:
   - 4: {fileID: 138762333}
   - 205: {fileID: 138762335}
   - 64: {fileID: 138762334}
+  - 23: {fileID: 138762336}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -2640,6 +2707,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1513412034}
   m_Enabled: 1
+--- !u!23 &138762336
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1259138539}
+  m_GameObject: {fileID: 138762332}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &140977953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,6 +3360,45 @@ MeshFilter:
   m_PrefabInternal: {fileID: 21116031}
   m_GameObject: {fileID: 182137801}
   m_Mesh: {fileID: 4300000, guid: b8f115ae324ed954e8758f64b9edf152, type: 3}
+--- !u!1 &185680249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 185680251}
+  - 114: {fileID: 185680250}
+  m_Layer: 0
+  m_Name: ClickManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &185680250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185680249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f90a11f3d85ce7438ed1200aa9caf6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &185680251
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185680249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 711.23291, y: 37.8106689, z: -209.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
 --- !u!1 &188026503
 GameObject:
   m_ObjectHideFlags: 0
@@ -3368,6 +3495,7 @@ GameObject:
   - 4: {fileID: 190167819}
   - 205: {fileID: 190167821}
   - 64: {fileID: 190167820}
+  - 23: {fileID: 190167822}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -3421,6 +3549,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1141910078}
   m_Enabled: 1
+--- !u!23 &190167822
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 722327618}
+  m_GameObject: {fileID: 190167818}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &191537887
 GameObject:
   m_ObjectHideFlags: 0
@@ -5041,6 +5190,7 @@ GameObject:
   - 4: {fileID: 320764584}
   - 205: {fileID: 320764586}
   - 64: {fileID: 320764585}
+  - 23: {fileID: 320764587}
   m_Layer: 0
   m_Name: build_warehouse1
   m_TagString: Untagged
@@ -5098,6 +5248,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1467120002}
   m_Enabled: 1
+--- !u!23 &320764587
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2313758, guid: d412648a77574f0429d00cfebd92e168,
+    type: 2}
+  m_PrefabInternal: {fileID: 1711723200}
+  m_GameObject: {fileID: 320764583}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &326925542
 GameObject:
   m_ObjectHideFlags: 0
@@ -5108,6 +5279,7 @@ GameObject:
   - 4: {fileID: 326925543}
   - 205: {fileID: 326925545}
   - 64: {fileID: 326925544}
+  - 23: {fileID: 326925546}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -5161,6 +5333,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1642563165}
   m_Enabled: 1
+--- !u!23 &326925546
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1946723654}
+  m_GameObject: {fileID: 326925542}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &328087946
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,6 +5364,7 @@ GameObject:
   - 4: {fileID: 328087947}
   - 205: {fileID: 328087949}
   - 64: {fileID: 328087948}
+  - 23: {fileID: 328087950}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -5224,6 +5418,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1723845305}
   m_Enabled: 1
+--- !u!23 &328087950
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 892818028}
+  m_GameObject: {fileID: 328087946}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &342823393
 GameObject:
   m_ObjectHideFlags: 0
@@ -5498,6 +5713,8 @@ GameObject:
   - 114: {fileID: 365243777}
   - 114: {fileID: 365243779}
   - 114: {fileID: 365243780}
+  - 114: {fileID: 365243781}
+  - 82: {fileID: 365243782}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5511,11 +5728,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 365243776}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1518955df935840854823b007ee8cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ef9eda63112d0447be3c6f12bcb7225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Wood: 100
+  Planks: 1000
+  Stone: 1000
+  Slabs: 1000
+  Iron: 1000
+  Ingots: 1000
+  Gold: 1000
 --- !u!4 &365243778
 Transform:
   m_ObjectHideFlags: 0
@@ -5534,9 +5758,9 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 365243776}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cec935ec953c34d489ee446e603d559c, type: 3}
+  m_Script: {fileID: 11500000, guid: 547ca41f84c82bb45bca9fc70994dd1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &365243780
@@ -5558,6 +5782,78 @@ MonoBehaviour:
   months: 0
   years: 0
   AMPM: ' PM'
+--- !u!114 &365243781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 365243776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b300140d706821b41ac85b34e286327c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TavernElement: 5
+  BarnElement: 3
+  resourceManager: {fileID: 0}
+--- !u!82 &365243782
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 365243776}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 368050c6080583c4e8310e5c347e557e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .157000005
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &369909922
 GameObject:
   m_ObjectHideFlags: 0
@@ -5568,6 +5864,7 @@ GameObject:
   - 4: {fileID: 369909923}
   - 205: {fileID: 369909925}
   - 64: {fileID: 369909924}
+  - 23: {fileID: 369909926}
   m_Layer: 0
   m_Name: build_barn1
   m_TagString: Untagged
@@ -5625,6 +5922,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1722712391}
   m_Enabled: 1
+--- !u!23 &369909926
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2352188, guid: 234e5e2015342a948ae17ec8868dd5fd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1870356839}
+  m_GameObject: {fileID: 369909922}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &374378746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5897,7 +6215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
       propertyPath: SelectedBuilding
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5de2b2e0fb0519940a233949ccc47d4a, type: 2}
@@ -6029,6 +6347,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 386298809}
   - 95: {fileID: 386298810}
+  - 23: {fileID: 386298811}
   m_Layer: 0
   m_Name: build_house2
   m_TagString: Untagged
@@ -6075,6 +6394,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &386298811
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2346840, guid: 8757ee7f1e8636d499007e86d852cd4c,
+    type: 2}
+  m_PrefabInternal: {fileID: 818616158}
+  m_GameObject: {fileID: 386298808}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &394475137
 GameObject:
   m_ObjectHideFlags: 0
@@ -6480,6 +6820,7 @@ GameObject:
   - 4: {fileID: 422639862}
   - 205: {fileID: 422639864}
   - 64: {fileID: 422639863}
+  - 23: {fileID: 422639865}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -6533,6 +6874,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1559512810}
   m_Enabled: 1
+--- !u!23 &422639865
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 291508439}
+  m_GameObject: {fileID: 422639861}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &428507279
 GameObject:
   m_ObjectHideFlags: 0
@@ -6543,6 +6905,7 @@ GameObject:
   - 4: {fileID: 428507280}
   - 205: {fileID: 428507282}
   - 64: {fileID: 428507281}
+  - 23: {fileID: 428507283}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -6596,6 +6959,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 945286898}
   m_Enabled: 1
+--- !u!23 &428507283
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 70651913}
+  m_GameObject: {fileID: 428507279}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &432134614
 GameObject:
   m_ObjectHideFlags: 0
@@ -6664,6 +7048,7 @@ GameObject:
   - 4: {fileID: 437195225}
   - 205: {fileID: 437195224}
   - 64: {fileID: 437195223}
+  - 23: {fileID: 437195226}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -6717,6 +7102,27 @@ Transform:
   - {fileID: 1061509962}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 27
+--- !u!23 &437195226
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1506009256}
+  m_GameObject: {fileID: 437195222}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &449943103
 GameObject:
   m_ObjectHideFlags: 0
@@ -7969,6 +8375,7 @@ GameObject:
   - 4: {fileID: 543458991}
   - 205: {fileID: 543458993}
   - 64: {fileID: 543458992}
+  - 23: {fileID: 543458994}
   m_Layer: 0
   m_Name: build_tavern1
   m_TagString: Untagged
@@ -8026,6 +8433,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 512818924}
   m_Enabled: 1
+--- !u!23 &543458994
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357884, guid: d1c566ac0e2b1034fb3f811aad355d76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1928909379}
+  m_GameObject: {fileID: 543458990}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &544770672
 GameObject:
   m_ObjectHideFlags: 0
@@ -9306,7 +9734,7 @@ GameObject:
   - 222: {fileID: 568542540}
   - 114: {fileID: 568542539}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9518,6 +9946,7 @@ GameObject:
   - 4: {fileID: 596990809}
   - 205: {fileID: 596990811}
   - 64: {fileID: 596990810}
+  - 23: {fileID: 596990812}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -9571,6 +10000,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1974333214}
   m_Enabled: 1
+--- !u!23 &596990812
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 21116031}
+  m_GameObject: {fileID: 596990808}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &599503647
 GameObject:
   m_ObjectHideFlags: 0
@@ -9581,6 +10031,7 @@ GameObject:
   - 4: {fileID: 599503648}
   - 205: {fileID: 599503650}
   - 64: {fileID: 599503649}
+  - 23: {fileID: 599503651}
   m_Layer: 0
   m_Name: build_arch1
   m_TagString: Untagged
@@ -9638,6 +10089,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 83829932}
   m_Enabled: 1
+--- !u!23 &599503651
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2388330, guid: ef53191a5b028d249bf25edc3e68cda0,
+    type: 2}
+  m_PrefabInternal: {fileID: 2075594384}
+  m_GameObject: {fileID: 599503647}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1001 &609484060
 Prefab:
   m_ObjectHideFlags: 0
@@ -10129,6 +10601,7 @@ GameObject:
   - 222: {fileID: 642619973}
   - 114: {fileID: 642619972}
   - 114: {fileID: 642619974}
+  - 114: {fileID: 642619975}
   m_Layer: 5
   m_Name: txtStoneValue
   m_TagString: Untagged
@@ -10196,6 +10669,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743d9bf3a39e86a4185027af93ad2fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &642619975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642619970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54629be5d814fab438c27f3165c3549a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: {fileID: 0}
 --- !u!1 &643178279
 GameObject:
   m_ObjectHideFlags: 0
@@ -10866,6 +11351,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 714622387}
   - 95: {fileID: 714622388}
+  - 23: {fileID: 714622389}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -10905,6 +11391,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &714622389
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2351358, guid: e2c528d98987b0a4ab28f4575785ae73,
+    type: 2}
+  m_PrefabInternal: {fileID: 1262265669}
+  m_GameObject: {fileID: 714622386}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &718166842
 GameObject:
   m_ObjectHideFlags: 0
@@ -11154,6 +11661,7 @@ GameObject:
   - 4: {fileID: 730560793}
   - 205: {fileID: 730560795}
   - 64: {fileID: 730560794}
+  - 23: {fileID: 730560796}
   m_Layer: 0
   m_Name: build_barn1
   m_TagString: Untagged
@@ -11211,6 +11719,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2014213597}
   m_Enabled: 1
+--- !u!23 &730560796
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2352188, guid: 234e5e2015342a948ae17ec8868dd5fd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1482239405}
+  m_GameObject: {fileID: 730560792}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &730844393
 GameObject:
   m_ObjectHideFlags: 0
@@ -11221,6 +11750,7 @@ GameObject:
   - 4: {fileID: 730844396}
   - 205: {fileID: 730844395}
   - 64: {fileID: 730844394}
+  - 23: {fileID: 730844397}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -11274,6 +11804,27 @@ Transform:
   - {fileID: 1827139482}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 39
+--- !u!23 &730844397
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1088460304}
+  m_GameObject: {fileID: 730844393}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &731856092
 GameObject:
   m_ObjectHideFlags: 0
@@ -11470,6 +12021,7 @@ GameObject:
   - 4: {fileID: 752129568}
   - 205: {fileID: 752129570}
   - 64: {fileID: 752129569}
+  - 23: {fileID: 752129571}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -11523,6 +12075,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1003396941}
   m_Enabled: 1
+--- !u!23 &752129571
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 761997252}
+  m_GameObject: {fileID: 752129567}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &753774803
 GameObject:
   m_ObjectHideFlags: 0
@@ -12361,6 +12934,7 @@ GameObject:
   - 4: {fileID: 802671109}
   - 205: {fileID: 802671108}
   - 64: {fileID: 802671107}
+  - 23: {fileID: 802671110}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -12414,6 +12988,27 @@ Transform:
   - {fileID: 1434877800}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 33
+--- !u!23 &802671110
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1878210881}
+  m_GameObject: {fileID: 802671106}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &803072873
 GameObject:
   m_ObjectHideFlags: 0
@@ -12811,6 +13406,7 @@ GameObject:
   - 222: {fileID: 837737520}
   - 114: {fileID: 837737519}
   - 114: {fileID: 837737521}
+  - 114: {fileID: 837737522}
   m_Layer: 5
   m_Name: txtWoodValue
   m_TagString: Untagged
@@ -12878,6 +13474,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed11fc99ca1815469ff59bee77b7bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &837737522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 837737517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4879a82f78b1ffa46a6edda662200cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: {fileID: 0}
 --- !u!1 &840312540
 GameObject:
   m_ObjectHideFlags: 0
@@ -13267,7 +13875,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 859506595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e245b400730f7e458611fa8396dc89b, type: 3}
+  m_Script: {fileID: 11500000, guid: aa7e731405b67464b8199132a2cd8903, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!195 &859506599
@@ -13683,7 +14291,7 @@ GameObject:
   - 222: {fileID: 904690448}
   - 114: {fileID: 904690447}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtWood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13918,6 +14526,7 @@ GameObject:
   - 4: {fileID: 910674902}
   - 205: {fileID: 910674901}
   - 64: {fileID: 910674900}
+  - 23: {fileID: 910674903}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -13971,6 +14580,27 @@ Transform:
   - {fileID: 1134994263}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 43
+--- !u!23 &910674903
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 273480800}
+  m_GameObject: {fileID: 910674899}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &912337920
 GameObject:
   m_ObjectHideFlags: 0
@@ -14246,6 +14876,7 @@ GameObject:
   - 4: {fileID: 928066603}
   - 205: {fileID: 928066605}
   - 64: {fileID: 928066604}
+  - 23: {fileID: 928066606}
   m_Layer: 0
   m_Name: Signboard1
   m_TagString: Untagged
@@ -14299,6 +14930,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1002138595}
   m_Enabled: 1
+--- !u!23 &928066606
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300674, guid: 877c081050d729047b23d85cc6fad530,
+    type: 2}
+  m_PrefabInternal: {fileID: 644034095}
+  m_GameObject: {fileID: 928066602}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &928620699
 GameObject:
   m_ObjectHideFlags: 0
@@ -14539,6 +15191,7 @@ GameObject:
   - 4: {fileID: 937028236}
   - 205: {fileID: 937028238}
   - 64: {fileID: 937028237}
+  - 23: {fileID: 937028239}
   m_Layer: 0
   m_Name: build_tavern1
   m_TagString: Untagged
@@ -14597,6 +15250,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 910313316}
   m_Enabled: 1
+--- !u!23 &937028239
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357884, guid: d1c566ac0e2b1034fb3f811aad355d76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1722254621}
+  m_GameObject: {fileID: 937028235}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &940914817
 GameObject:
   m_ObjectHideFlags: 0
@@ -15006,6 +15680,7 @@ GameObject:
   - 4: {fileID: 962240106}
   - 205: {fileID: 962240108}
   - 64: {fileID: 962240107}
+  - 23: {fileID: 962240109}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -15059,6 +15734,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 191537888}
   m_Enabled: 1
+--- !u!23 &962240109
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1669511895}
+  m_GameObject: {fileID: 962240105}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &966416601
 GameObject:
   m_ObjectHideFlags: 0
@@ -15134,6 +15830,7 @@ GameObject:
   - 4: {fileID: 972725146}
   - 205: {fileID: 972725148}
   - 64: {fileID: 972725147}
+  - 23: {fileID: 972725149}
   m_Layer: 0
   m_Name: Signboard1
   m_TagString: Untagged
@@ -15187,6 +15884,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 284044264}
   m_Enabled: 1
+--- !u!23 &972725149
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300674, guid: 877c081050d729047b23d85cc6fad530,
+    type: 2}
+  m_PrefabInternal: {fileID: 1627911463}
+  m_GameObject: {fileID: 972725145}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &973620307
 GameObject:
   m_ObjectHideFlags: 0
@@ -15427,6 +16145,7 @@ GameObject:
   - 4: {fileID: 994620022}
   - 205: {fileID: 994620021}
   - 64: {fileID: 994620020}
+  - 23: {fileID: 994620023}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -15480,6 +16199,27 @@ Transform:
   - {fileID: 92076579}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 49
+--- !u!23 &994620023
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1282604}
+  m_GameObject: {fileID: 994620019}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &997613867
 GameObject:
   m_ObjectHideFlags: 0
@@ -15547,6 +16287,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 998124654}
   - 95: {fileID: 998124653}
+  - 23: {fileID: 998124655}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -15585,6 +16326,27 @@ Transform:
   - {fileID: 165015588}
   m_Father: {fileID: 0}
   m_RootOrder: 25
+--- !u!23 &998124655
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2327680, guid: 0c2de7b327d9b6a4aaa00cf6d6e4e6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 24245147}
+  m_GameObject: {fileID: 998124652}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1001 &1000288713
 Prefab:
   m_ObjectHideFlags: 0
@@ -15923,6 +16685,7 @@ GameObject:
   - 4: {fileID: 1032017341}
   - 205: {fileID: 1032017343}
   - 64: {fileID: 1032017342}
+  - 23: {fileID: 1032017344}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -15976,6 +16739,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 342823394}
   m_Enabled: 1
+--- !u!23 &1032017344
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 11043012}
+  m_GameObject: {fileID: 1032017340}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1032944619
 GameObject:
   m_ObjectHideFlags: 0
@@ -16307,6 +17091,7 @@ GameObject:
   - 4: {fileID: 1048476386}
   - 205: {fileID: 1048476385}
   - 64: {fileID: 1048476384}
+  - 23: {fileID: 1048476387}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -16360,6 +17145,27 @@ Transform:
   - {fileID: 1692446812}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 30
+--- !u!23 &1048476387
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 2061874921}
+  m_GameObject: {fileID: 1048476383}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1061509960
 GameObject:
   m_ObjectHideFlags: 0
@@ -16544,6 +17350,7 @@ GameObject:
   - 4: {fileID: 1081404889}
   - 205: {fileID: 1081404888}
   - 64: {fileID: 1081404887}
+  - 23: {fileID: 1081404890}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -16597,6 +17404,27 @@ Transform:
   - {fileID: 746064930}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 40
+--- !u!23 &1081404890
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1910325811}
+  m_GameObject: {fileID: 1081404886}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1081661889
 GameObject:
   m_ObjectHideFlags: 0
@@ -18579,7 +19407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cd34c9ce1eff4d42a1e65eeca56ad60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedBuilding: 1
+  SelectedBuilding: 0
   Building:
   - {fileID: 0}
   - {fileID: 100004, guid: 474cd78d75915df48a9df529b2dba79c, type: 2}
@@ -18610,7 +19438,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1218394495}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01928e78fb70b5c4aa6fbfcdbd9c986c, type: 3}
   m_Name: 
@@ -19672,6 +20500,7 @@ GameObject:
   - 4: {fileID: 1296496474}
   - 205: {fileID: 1296496476}
   - 64: {fileID: 1296496475}
+  - 23: {fileID: 1296496477}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -19725,6 +20554,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2002805379}
   m_Enabled: 1
+--- !u!23 &1296496477
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 355113274}
+  m_GameObject: {fileID: 1296496473}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1298380910
 GameObject:
   m_ObjectHideFlags: 0
@@ -20130,6 +20980,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1335354433}
   - 95: {fileID: 1335354434}
+  - 23: {fileID: 1335354435}
   m_Layer: 0
   m_Name: build_woodcutter
   m_TagString: Untagged
@@ -20170,6 +21021,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1335354435
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2388774, guid: 9fa1cda65943e744ba1b47d9845bd2ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1509035341}
+  m_GameObject: {fileID: 1335354432}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1337250790
 GameObject:
   m_ObjectHideFlags: 0
@@ -20180,6 +21052,7 @@ GameObject:
   - 4: {fileID: 1337250793}
   - 205: {fileID: 1337250792}
   - 64: {fileID: 1337250791}
+  - 23: {fileID: 1337250794}
   m_Layer: 0
   m_Name: build_arch1_LOD1
   m_TagString: Untagged
@@ -20237,6 +21110,27 @@ Transform:
   - {fileID: 793658146}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!23 &1337250794
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2388330, guid: ef53191a5b028d249bf25edc3e68cda0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1432760883}
+  m_GameObject: {fileID: 1337250790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1338318194
 GameObject:
   m_ObjectHideFlags: 0
@@ -20497,6 +21391,7 @@ GameObject:
   - 4: {fileID: 1358183862}
   - 205: {fileID: 1358183861}
   - 64: {fileID: 1358183860}
+  - 23: {fileID: 1358183863}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -20550,6 +21445,27 @@ Transform:
   - {fileID: 1564344570}
   m_Father: {fileID: 0}
   m_RootOrder: 34
+--- !u!23 &1358183863
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 609484060}
+  m_GameObject: {fileID: 1358183859}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1371501958
 GameObject:
   m_ObjectHideFlags: 0
@@ -21270,6 +22186,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1435405054}
   - 95: {fileID: 1435405055}
+  - 23: {fileID: 1435405056}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -21309,6 +22226,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1435405056
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2351358, guid: e2c528d98987b0a4ab28f4575785ae73,
+    type: 2}
+  m_PrefabInternal: {fileID: 994466222}
+  m_GameObject: {fileID: 1435405053}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1438472845
 GameObject:
   m_ObjectHideFlags: 0
@@ -21667,6 +22605,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1467624885}
   - 95: {fileID: 1467624886}
+  - 23: {fileID: 1467624887}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -21705,6 +22644,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1467624887
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2327680, guid: 0c2de7b327d9b6a4aaa00cf6d6e4e6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1117982278}
+  m_GameObject: {fileID: 1467624884}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1468859113
 GameObject:
   m_ObjectHideFlags: 0
@@ -21714,6 +22674,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1468859114}
   - 95: {fileID: 1468859115}
+  - 23: {fileID: 1468859116}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -21753,6 +22714,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1468859116
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2351358, guid: e2c528d98987b0a4ab28f4575785ae73,
+    type: 2}
+  m_PrefabInternal: {fileID: 1602609650}
+  m_GameObject: {fileID: 1468859113}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1470882218
 GameObject:
   m_ObjectHideFlags: 0
@@ -22268,6 +23250,7 @@ GameObject:
   - 4: {fileID: 1484112201}
   - 205: {fileID: 1484112200}
   - 64: {fileID: 1484112199}
+  - 23: {fileID: 1484112202}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -22321,6 +23304,27 @@ Transform:
   - {fileID: 122145815}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 41
+--- !u!23 &1484112202
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1085566366}
+  m_GameObject: {fileID: 1484112198}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1484541156
 GameObject:
   m_ObjectHideFlags: 0
@@ -23136,6 +24140,7 @@ GameObject:
   - 4: {fileID: 1557869370}
   - 205: {fileID: 1557869369}
   - 64: {fileID: 1557869368}
+  - 23: {fileID: 1557869371}
   m_Layer: 0
   m_Name: build_barn1
   m_TagString: Untagged
@@ -23193,6 +24198,27 @@ Transform:
   - {fileID: 1084941167}
   m_Father: {fileID: 0}
   m_RootOrder: 11
+--- !u!23 &1557869371
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2352188, guid: 234e5e2015342a948ae17ec8868dd5fd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1353780028}
+  m_GameObject: {fileID: 1557869367}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1559512808
 GameObject:
   m_ObjectHideFlags: 0
@@ -23405,6 +24431,7 @@ GameObject:
   - 4: {fileID: 1581667003}
   - 205: {fileID: 1581667005}
   - 64: {fileID: 1581667004}
+  - 23: {fileID: 1581667006}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -23458,6 +24485,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1548988078}
   m_Enabled: 1
+--- !u!23 &1581667006
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1832977233}
+  m_GameObject: {fileID: 1581667002}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1582081500
 GameObject:
   m_ObjectHideFlags: 0
@@ -23910,6 +24958,7 @@ GameObject:
   - 4: {fileID: 1603256809}
   - 205: {fileID: 1603256811}
   - 64: {fileID: 1603256810}
+  - 23: {fileID: 1603256812}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -23963,6 +25012,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1333716405}
   m_Enabled: 1
+--- !u!23 &1603256812
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1274474505}
+  m_GameObject: {fileID: 1603256808}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1604298754
 GameObject:
   m_ObjectHideFlags: 0
@@ -24430,6 +25500,7 @@ GameObject:
   - 4: {fileID: 1641404499}
   - 205: {fileID: 1641404501}
   - 64: {fileID: 1641404500}
+  - 23: {fileID: 1641404502}
   m_Layer: 0
   m_Name: build_barn1
   m_TagString: Untagged
@@ -24487,6 +25558,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 138462077}
   m_Enabled: 1
+--- !u!23 &1641404502
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2352188, guid: 234e5e2015342a948ae17ec8868dd5fd,
+    type: 2}
+  m_PrefabInternal: {fileID: 264446139}
+  m_GameObject: {fileID: 1641404498}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1642563164
 GameObject:
   m_ObjectHideFlags: 0
@@ -25059,6 +26151,7 @@ GameObject:
   - 4: {fileID: 1664569587}
   - 205: {fileID: 1664569586}
   - 64: {fileID: 1664569585}
+  - 23: {fileID: 1664569588}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -25112,6 +26205,27 @@ Transform:
   - {fileID: 613519361}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 44
+--- !u!23 &1664569588
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1097631308}
+  m_GameObject: {fileID: 1664569584}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1666873206
 GameObject:
   m_ObjectHideFlags: 0
@@ -25684,6 +26798,7 @@ GameObject:
   - 4: {fileID: 1690952759}
   - 205: {fileID: 1690952761}
   - 64: {fileID: 1690952760}
+  - 23: {fileID: 1690952762}
   m_Layer: 0
   m_Name: Lantern1
   m_TagString: Untagged
@@ -25738,6 +26853,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1223994636}
   m_Enabled: 1
+--- !u!23 &1690952762
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2348630, guid: 98ddd0dcaffac4c4abbac63dfc2905e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1970771315}
+  m_GameObject: {fileID: 1690952758}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1692446810
 GameObject:
   m_ObjectHideFlags: 0
@@ -26267,6 +27403,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1711959302}
   - 95: {fileID: 1711959303}
+  - 23: {fileID: 1711959304}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -26305,6 +27442,27 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1711959304
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2327680, guid: 0c2de7b327d9b6a4aaa00cf6d6e4e6c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 904954864}
+  m_GameObject: {fileID: 1711959301}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1001 &1722254621
 Prefab:
   m_ObjectHideFlags: 0
@@ -26531,6 +27689,47 @@ MeshFilter:
   m_PrefabInternal: {fileID: 892818028}
   m_GameObject: {fileID: 1723845303}
   m_Mesh: {fileID: 4300002, guid: b8f115ae324ed954e8758f64b9edf152, type: 3}
+--- !u!1 &1728108021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1728108024}
+  - 114: {fileID: 1728108022}
+  m_Layer: 0
+  m_Name: GameAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1728108022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1728108021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d164e21ebcf0a44b8f7325bc666108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Not_Enough_Wood1: {fileID: 0}
+  au_Not_Enough_Wood1: {fileID: 0}
+--- !u!4 &1728108024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1728108021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 396.579529, y: 80.3336792, z: -12.625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
 --- !u!1 &1728769868
 GameObject:
   m_ObjectHideFlags: 0
@@ -27040,6 +28239,7 @@ GameObject:
   - 4: {fileID: 1756518305}
   - 205: {fileID: 1756518304}
   - 64: {fileID: 1756518303}
+  - 23: {fileID: 1756518306}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -27093,6 +28293,27 @@ Transform:
   - {fileID: 756977134}
   m_Father: {fileID: 1697164531}
   m_RootOrder: 28
+--- !u!23 &1756518306
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 251227851}
+  m_GameObject: {fileID: 1756518302}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1758166882
 GameObject:
   m_ObjectHideFlags: 0
@@ -28193,7 +29414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1848131571}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 185680250}
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1848131571
@@ -28664,6 +29897,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1900588710}
   - 95: {fileID: 1900588711}
+  - 23: {fileID: 1900588712}
+  - 64: {fileID: 1900588713}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -28703,6 +29938,40 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1900588712
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2351358, guid: e2c528d98987b0a4ab28f4575785ae73,
+    type: 2}
+  m_PrefabInternal: {fileID: 59284956}
+  m_GameObject: {fileID: 1900588709}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1900588713
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900588709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
 --- !u!1 &1901986917
 GameObject:
   m_ObjectHideFlags: 0
@@ -28829,6 +30098,7 @@ GameObject:
   - 4: {fileID: 1903580435}
   - 205: {fileID: 1903580437}
   - 64: {fileID: 1903580436}
+  - 23: {fileID: 1903580438}
   m_Layer: 0
   m_Name: build_bridge1
   m_TagString: Untagged
@@ -28886,6 +30156,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1582081502}
   m_Enabled: 1
+--- !u!23 &1903580438
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2345458, guid: 53a9ba8edc5a8044580cb03f696e39a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 266333163}
+  m_GameObject: {fileID: 1903580434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1001 &1910325811
 Prefab:
   m_ObjectHideFlags: 0
@@ -29013,6 +30304,7 @@ GameObject:
   - 4: {fileID: 1916419316}
   - 205: {fileID: 1916419318}
   - 64: {fileID: 1916419317}
+  - 23: {fileID: 1916419319}
   m_Layer: 0
   m_Name: barrel1
   m_TagString: Untagged
@@ -29066,6 +30358,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 284520767}
   m_Enabled: 1
+--- !u!23 &1916419319
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2349732, guid: 474cd78d75915df48a9df529b2dba79c,
+    type: 2}
+  m_PrefabInternal: {fileID: 465867975}
+  m_GameObject: {fileID: 1916419315}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1001 &1920752329
 Prefab:
   m_ObjectHideFlags: 0
@@ -29581,7 +30894,7 @@ GameObject:
   - 222: {fileID: 1967117255}
   - 114: {fileID: 1967117254}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtFood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

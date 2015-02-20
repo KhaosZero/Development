@@ -25,9 +25,13 @@ public class BuildManager: MonoBehaviour
 
 	private bool isFlat;
 	public float maxSlopeHigh = 5f;
-	
+
+
+
 	void Start()
 	{
+
+
 		LastSelectedBuilding = SelectedBuilding;
 	}
 	
@@ -55,7 +59,7 @@ public class BuildManager: MonoBehaviour
 					break;
 				}
 				
-				if (!ghostOn)
+				if (!ghostOn && SelectedBuilding != 0)
 				{
 					ghost = (GameObject)Instantiate(Building[SelectedBuilding], 
 					new Vector3(hit[i].point.x,
@@ -90,10 +94,11 @@ public class BuildManager: MonoBehaviour
 				
 					collided.Clear();
 					SelectedBuilding = 0;
+
 					break;
 				}
 				
-				if (ghost != null)
+				if (ghost != null && SelectedBuilding != 0)
 				{
 					ghost.transform.position = new Vector3(
 						hit[i].point.x, 

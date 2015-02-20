@@ -25,6 +25,10 @@ public class GUIScript : MonoBehaviour {
 		{
 			bm.SelectedBuilding = 1;
 		}
+		if (Input.GetKeyDown("5"))
+		{
+			bm.SelectedBuilding = 5;
+		}
 		
 		buildingindex = bm.SelectedBuilding;
 		buildingname = bm.Building[buildingindex].name;
