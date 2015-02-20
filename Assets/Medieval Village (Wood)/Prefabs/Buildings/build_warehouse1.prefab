@@ -62,6 +62,8 @@ GameObject:
   - 205: {fileID: 20500000}
   - 64: {fileID: 6400000}
   - 23: {fileID: 2313758}
+  - 54: {fileID: 5410030}
+  - 114: {fileID: 11418258}
   m_Layer: 0
   m_Name: build_warehouse1
   m_TagString: Untagged
@@ -235,6 +237,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Mesh: {fileID: 4300002, guid: 6a183dc37fe1173469113e6be9a34218, type: 3}
+--- !u!54 &5410030
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!64 &6400000
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -248,6 +265,17 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 4300006, guid: 6a183dc37fe1173469113e6be9a34218, type: 3}
+--- !u!114 &11418258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b1941ef9a123544817a34fb6cb88cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!205 &20500000
 LODGroup:
   m_ObjectHideFlags: 1

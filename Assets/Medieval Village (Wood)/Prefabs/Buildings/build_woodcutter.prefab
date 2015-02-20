@@ -10,6 +10,8 @@ GameObject:
   - 4: {fileID: 495500}
   - 95: {fileID: 9595500}
   - 23: {fileID: 2388774}
+  - 54: {fileID: 5479316}
+  - 114: {fileID: 11421724}
   m_Layer: 0
   m_Name: build_woodcutter
   m_TagString: Untagged
@@ -334,6 +336,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195510}
   m_Mesh: {fileID: 4300066, guid: e61a069c2bd410944a5a0ea061e4029c, type: 3}
+--- !u!54 &5479316
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195500}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!95 &9595500
 Animator:
   serializedVersion: 3
@@ -349,6 +366,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11421724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b1941ef9a123544817a34fb6cb88cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

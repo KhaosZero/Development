@@ -25,8 +25,7 @@ public class BuildManager: MonoBehaviour
 
 	private bool isFlat;
 	public float maxSlopeHigh = 5f;
-
-
+	private Vector3 rot;
 
 	void Start()
 	{
@@ -41,7 +40,7 @@ public class BuildManager: MonoBehaviour
 		RaycastHit[] hit;
 		ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		hit = Physics.RaycastAll(ray, Mathf.Infinity);
-		
+
 		
 		
 		
@@ -54,7 +53,6 @@ public class BuildManager: MonoBehaviour
 					Destroy(ghost);
 					ghostOn = false;
 					LastSelectedBuilding = SelectedBuilding;
-					
 					collided.Clear();
 					break;
 				}
@@ -70,31 +68,36 @@ public class BuildManager: MonoBehaviour
 					ghostOn = true;	
 				}
 			
-		
+				if (Input.GetKeyDown(KeyCode.Z))
+				{
+					//ghost.transform.Rotate(0, 90, 0);
+					Building[SelectedBuilding].transform.Rotate (0, 90, 0);
+					ghost.transform.Rotate (0, 90, 0);
+					rot = new Vector3(ghost.transform.rotation.eulerAngles.x, ghost.transform.rotation.eulerAngles.y, ghost.transform.rotation.eulerAngles.z);
+				}
 
 				if (Input.GetMouseButtonDown(0) && collided.Count == 0 && isFlat )
 				{
 					BuildingList bl = new BuildingList();
-					
+
 					DestroyImmediate(ghost);
 					
 					bl.buildingGameObject = (GameObject)Instantiate(Building[SelectedBuilding], 
 					new Vector3(hit[i].point.x, 
-						hit[i].point.y + (Building[SelectedBuilding].transform.localScale.y / 2), 
+					            hit[i].point.y + (Building[SelectedBuilding].transform.localScale.y / 2), 
 						hit[i].point.z), 
 					Quaternion.identity);
-					
+
+					//hit[i].point.y + (Building[SelectedBuilding].transform.localScale.y / 2)
 					string s = bl.buildingGameObject.name.Replace("(Clone)", "");
 					bl.buildingGameObject.name = s;
 					bl.buildingName = s;
-					
 					buildings.Add(bl);
-				
+					bl.buildingGameObject.transform.Rotate (rot.x, rot.y, rot.z);
 					ghostOn = false;
-				
 					collided.Clear();
 					SelectedBuilding = 0;
-
+					rot = new Vector3(0, 0, 0);
 					break;
 				}
 				
@@ -115,6 +118,7 @@ public class BuildManager: MonoBehaviour
 							0f, 
 							0f, 
 							0.6f);
+
 					}			
 					else if (collided.Count == 0 && isFlat)
 					{

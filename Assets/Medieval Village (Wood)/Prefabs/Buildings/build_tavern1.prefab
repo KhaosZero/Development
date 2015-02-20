@@ -62,6 +62,9 @@ GameObject:
   - 205: {fileID: 20500000}
   - 64: {fileID: 6400000}
   - 23: {fileID: 2357884}
+  - 114: {fileID: 11416034}
+  - 54: {fileID: 5458210}
+  - 114: {fileID: 11466792}
   m_Layer: 0
   m_Name: build_tavern1
   m_TagString: Untagged
@@ -75,7 +78,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: -1}
   m_LocalPosition: {x: 237.378906, y: 16.8423462, z: -49.4654541}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -235,6 +238,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Mesh: {fileID: 4300000, guid: 4cfc5f4569099324aa9ebae0934602b6, type: 3}
+--- !u!54 &5458210
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!64 &6400000
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -248,6 +266,28 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 4300006, guid: 4cfc5f4569099324aa9ebae0934602b6, type: 3}
+--- !u!114 &11416034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b1941ef9a123544817a34fb6cb88cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11466792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b1941ef9a123544817a34fb6cb88cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!205 &20500000
 LODGroup:
   m_ObjectHideFlags: 1
