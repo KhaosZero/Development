@@ -19,6 +19,13 @@ public class TargetScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		if ( YDestination != target.y || XDestination != target.x || ZDestination != target.z) {
+			target.x = XDestination;
+			target.y = YDestination;
+			target.z = ZDestination;
+			agent = GetComponent<NavMeshAgent> ();
+			
+			agent.SetDestination (target);
+		}
 	}
 }

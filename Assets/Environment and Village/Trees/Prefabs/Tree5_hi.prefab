@@ -11,6 +11,8 @@ GameObject:
   - 193: {fileID: 19300000}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
+  - 54: {fileID: 5402004}
+  - 65: {fileID: 6554432}
   m_Layer: 0
   m_Name: Tree5_hi
   m_TagString: Untagged
@@ -337,6 +339,33 @@ Mesh:
     m_Extent: {x: 4.49144459, y: 7.58755636, z: 4.60435581}
   m_MeshUsageFlags: 0
   m_MeshOptimized: 0
+--- !u!54 &5402004
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &6554432
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 13400000, guid: cdf7d3f1ad11f8d6d00011d98d76c639, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .540630579, y: 14.8884401, z: .635153592}
+  m_Center: {x: -.0364074707, y: 6.94422007, z: -.0234985407}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
