@@ -42,7 +42,7 @@ Material:
       data:
         first:
           name: _Brightness
-        second: .699999988
+        second: .400000006
       data:
         first:
           name: _BlurRange
@@ -50,7 +50,7 @@ Material:
       data:
         first:
           name: _Contrast
-        second: 1.29999995
+        second: 1.20000005
     m_Colors:
       data:
         first:

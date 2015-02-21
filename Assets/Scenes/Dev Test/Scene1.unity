@@ -22116,10 +22116,10 @@ Light:
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
-    m_Strength: .75
+    m_Strength: .384000003
     m_Bias: .0500000007
-    m_Softness: 4
-    m_SoftnessFade: .100000001
+    m_Softness: 3.56999993
+    m_SoftnessFade: 1.15999997
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_ActuallyLightmapped: 0
@@ -30336,6 +30336,26 @@ Prefab:
       propertyPath: maximumMoonIntensity
       value: .200000003
       objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: cb9794cd030d32a43923b047ce8190f9, type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: cb9794cd030d32a43923b047ce8190f9, type: 2}
+      propertyPath: m_Shadows.m_Strength
+      value: .384000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: cb9794cd030d32a43923b047ce8190f9, type: 2}
+      propertyPath: m_Shadows.m_Softness
+      value: 3.56999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: cb9794cd030d32a43923b047ce8190f9, type: 2}
+      propertyPath: m_Shadows.m_SoftnessFade
+      value: 1.15999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: cb9794cd030d32a43923b047ce8190f9, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb9794cd030d32a43923b047ce8190f9, type: 2}
   m_RootGameObject: {fileID: 374945838}
@@ -32166,8 +32186,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1976688763}
-  m_LocalRotation: {x: .403759927, y: 0, z: 0, w: .914865017}
-  m_LocalPosition: {x: 242.539993, y: 55.3300018, z: -138.240005}
+  m_LocalRotation: {x: .155500561, y: 0, z: 0, w: .987835884}
+  m_LocalPosition: {x: 235.960007, y: 50.2599983, z: -195.080002}
   m_LocalScale: {x: 1, y: 1, z: .99999994}
   m_Children:
   - {fileID: 588804476}
