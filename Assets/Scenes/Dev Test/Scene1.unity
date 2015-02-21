@@ -5828,6 +5828,13 @@ MonoBehaviour:
   TavernElement: 5
   BarnElement: 3
   resourceManager: {fileID: 0}
+  Tavern1_GoldCost: 300
+  Tavern1_WoodCost: 100
+  Tavern1_PlankCost: 10
+  Tavern1_StoneCost: 0
+  Tavern1_SlabCost: 15
+  Tavern1_IronCost: 300
+  Tavern1_IngotCost: 300
 --- !u!82 &365243782
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19861,6 +19868,7 @@ MonoBehaviour:
   collided: []
   TerrainCollisionTag: Floor
   maxSlopeHigh: 8
+  building: {fileID: 0}
 --- !u!4 &1218394497
 Transform:
   m_ObjectHideFlags: 0

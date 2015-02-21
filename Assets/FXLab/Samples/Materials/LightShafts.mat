@@ -35,7 +35,7 @@ Material:
       data:
         first:
           name: _Brightness
-        second: .800000012
+        second: .699999988
       data:
         first:
           name: _BlurRange
