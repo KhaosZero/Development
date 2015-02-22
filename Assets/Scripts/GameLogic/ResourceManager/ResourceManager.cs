@@ -3,7 +3,7 @@ using UnityEngine;
 using System.Collections;
 
 public class ResourceManager : MonoBehaviour {
-	private GameObject go;
+	private GameObject go2;
 	private AudioManager AudioPlay;
 
 	public int Wood = 100;
@@ -16,14 +16,14 @@ public class ResourceManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		go = GameObject.Find("GameAudio");
-		AudioPlay = go.GetComponent<AudioManager> ();
+		go2 = GameObject.Find("GameAudio");
+		AudioPlay = go2.GetComponent<AudioManager> ();
 	}
 	
 
-	public bool Deduct (int costPlanks, int costWood, int costSlabs, int costGold, int costIngots) {
+	public bool Deduct (int costPlanks, int costWood, int costSlabs, int costGold, int costIron, int costIngots) {
 		int error = 0;
-		if (costPlanks > Planks || costWood > Wood || costSlabs > Slabs || costGold > Gold || costIngots > Ingots) {
+		if (costPlanks > Planks || costWood > Wood || costSlabs > Slabs || costGold > Gold || costIngots > Ingots || costIron > Iron) {
 
 			//Find out what we don't have
 			if (costPlanks > Planks) {
@@ -33,6 +33,8 @@ public class ResourceManager : MonoBehaviour {
 			} if (costSlabs > Slabs) {
 				error++;
 			} if (costGold > Gold) {
+				error++;
+			} if (costIron > Iron) {
 				error++;
 			} if (costIngots > Ingots) {
 				error++;
@@ -53,7 +55,10 @@ public class ResourceManager : MonoBehaviour {
 				} if (costGold > Gold) {
 					//Not enough Gold
 					return false;
-				} if (costIngots > Ingots) {
+				} if (costIron > Iron) {
+					//Not Enough Iron
+					return false;
+				}if (costIngots > Ingots) {
 					//Not enough Ingots
 					return false;
 				}
@@ -64,10 +69,21 @@ public class ResourceManager : MonoBehaviour {
 			Wood -= costWood;
 			Slabs -= costSlabs;
 			Gold -= costGold;
+			Iron -= costIron;
 			Ingots -= costIngots;
 			return true;
 		}
 	}
+
+
+	public void Add (int addPlanks, int addWood, int addSlabs, int addGold, int addIron, int addIngots) {
+		Planks += addPlanks;
+		Wood += addWood;
+		Slabs += addSlabs;
+		Gold += addGold;
+		Iron += addIron;
+		Ingots += addIngots;
+		}
 
 	public bool woodDeduct (int cost)
 	{

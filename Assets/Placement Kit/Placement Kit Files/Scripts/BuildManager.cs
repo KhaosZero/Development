@@ -13,7 +13,6 @@ public class BuildManager: MonoBehaviour
 	public int SelectedBuilding;
 	private int LastSelectedBuilding;
 	public GameObject[] Building;
-	
 	public List<GameObject> collided = new List<GameObject>();
 	public List<BuildingList> buildings = new List<BuildingList>();
 	
@@ -27,9 +26,17 @@ public class BuildManager: MonoBehaviour
 	public float maxSlopeHigh = 5f;
 	private Vector3 rot;
 
+	private GameObject go;
+	public buyBuilding building;
+	private GameObject go2;
+	private ResourceManager refund;
 	void Start()
 	{
+		go = GameObject.Find ("GameManager");
+		refund = go.GetComponent<ResourceManager> ();
 
+		go2 = GameObject.Find ("GameManager");
+		building = go.GetComponent<buyBuilding> ();
 
 		LastSelectedBuilding = SelectedBuilding;
 	}
@@ -41,6 +48,13 @@ public class BuildManager: MonoBehaviour
 		ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		hit = Physics.RaycastAll(ray, Mathf.Infinity);
 
+		if(Input.GetMouseButtonDown(1) && (SelectedBuilding != 0 || SelectedBuilding != null)) {
+
+			if(SelectedBuilding == building.TavernElement) {
+			refund.Add (building.Tavern1_PlankCost, building.Tavern1_WoodCost, building.Tavern1_SlabCost, building.Tavern1_GoldCost, building.Tavern1_IronCost, building.Tavern1_IngotCost);
+			}
+			SelectedBuilding = 0;
+		}
 		
 		
 		
