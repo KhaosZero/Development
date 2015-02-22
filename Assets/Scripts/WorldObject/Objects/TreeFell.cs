@@ -5,12 +5,13 @@ public class TreeFell : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		fall ();
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
+		isMoving ();
 
 	}
 
@@ -22,10 +23,16 @@ public class TreeFell : MonoBehaviour {
 
 	public bool isMoving () {
 
-	if ( rigidbody.IsSleeping () ) {
+		if ( (transform.rigidbody.constraints == RigidbodyConstraints.None) && rigidbody.IsSleeping () ) {
+			this.tag = "Untagged";
 			return true;
 		} else {
+			this.tag = "Tree";
 			return false;
 		}
+	}
+
+	public void PrintTest () {
+		print ("Its Me!");
 	}
 }
