@@ -10,11 +10,13 @@ public class Identity : MonoBehaviour {
 
 	public ResourceManager resourceManager;
 	GameObject tree;
+	GameObject stone;
 	GameObject closest;
 	private GameObject go3;
 	private TreeFell treeFell;
 	public string action = "harvest";
 	float treeDistance;
+	float stoneDistance;
 	float timeLeft;
 	bool isTiming = false;
 	bool timeUp = false;
@@ -26,6 +28,23 @@ public class Identity : MonoBehaviour {
 		float distance = Mathf.Infinity;
 		Vector3 position = transform.position;
 		foreach (GameObject go in gos) {
+			Vector3 diff = go.transform.position - position;
+			float curDistance = diff.sqrMagnitude;
+			if (curDistance < distance && go != null) {
+				closest = go;
+				distance = curDistance;
+			}
+		}
+		return closest;
+	}
+
+	GameObject FindStone() {
+		GameObject[] gosStone;
+		gosStone = GameObject.FindGameObjectsWithTag("Stone");
+		//GameObject closest;
+		float distance = Mathf.Infinity;
+		Vector3 position = transform.position;
+		foreach (GameObject go in gosStone) {
 			Vector3 diff = go.transform.position - position;
 			float curDistance = diff.sqrMagnitude;
 			if (curDistance < distance && go != null) {
@@ -80,6 +99,32 @@ public class Identity : MonoBehaviour {
 		}
 		}
 
-	}
+		if(this.tag == "stonecutter") {
+			if(action == "harvest") {
+				stone = FindStone ();
 
-}
+				if(stone.tag == "Stone") {
+					target.XDestination = stone.transform.position.x;
+					target.YDestination = stone.transform.position.y;
+					target.ZDestination = stone.transform.position.z;
+					if(stone.tag == "Stone" && ((stoneDistance = Vector3.Distance (this.transform.position, stone.transform.position)) < 1)) {
+
+						isTiming = true;
+						if (timeUp == true) {
+							resourceManager.Add(0,0,5,0,0,0);
+							
+						}
+					}
+				}
+			}
+
+
+		}
+
+	}
+	
+
+
+	}
+	
+
