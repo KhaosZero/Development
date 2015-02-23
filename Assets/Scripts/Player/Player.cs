@@ -18,7 +18,8 @@ public class Player : MonoBehaviour {
 	private Animator animator;
 	private bool reachedDest;
 	NavMeshAgent agent;
-	
+	private bool newPath;
+	private Vector3 oldDestination;
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
@@ -30,6 +31,12 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
+		if(oldDestination != agent.destination) {
+			
+			oldDestination = agent.destination;
+			newPath = true;
+		}
+
 		//Run this check so long as we have not reached our destination (our distance > stopping Distance
 		if ( Vector3.Distance( agent.destination, agent.transform.position) <= agent.stoppingDistance)
 		{
@@ -40,14 +47,17 @@ public class Player : MonoBehaviour {
 				animator.SetInteger ("AnimState", 0);
 				//We've reached our destination
 				reachedDest = true;
+				newPath = false;
 			}
 			
 		}
 		//If we havn't reached our destination
-		if(reachedDest == false) {
+		if(reachedDest == false || newPath == true) {
 			//Walk!
 			animator.SetInteger ("AnimState", 1);
 		}
+
+
 		
 	}
 }
