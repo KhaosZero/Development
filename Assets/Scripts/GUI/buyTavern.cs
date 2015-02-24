@@ -21,4 +21,8 @@ public class buyTavern : MonoBehaviour {
 	public void Click() {
 		buy.tavern1 ();
 	}
+
+	public void Buy() {
+		buy.tavern1 ();
+	}
 }

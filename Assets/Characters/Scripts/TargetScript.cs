@@ -2,18 +2,18 @@
 using System.Collections;
 
 public class TargetScript : MonoBehaviour {
-
+	
 	public float XDestination;
 	public float YDestination;
 	public float ZDestination;
 	private Vector3 target;
 	NavMeshAgent agent;
-
+	
 	// Use this for initialization
 	void Start () {
 		target = new Vector3 (XDestination, YDestination, ZDestination);
 		agent = GetComponent<NavMeshAgent> ();
-
+		
 		agent.SetDestination (target);
 	}
 	
@@ -26,6 +26,12 @@ public class TargetScript : MonoBehaviour {
 			agent = GetComponent<NavMeshAgent> ();
 			
 			agent.SetDestination (target);
+		} else {
+			target.x = this.transform.eulerAngles.x;
+			target.y = this.transform.eulerAngles.x;
+			target.z = this.transform.eulerAngles.x;
+
 		}
+
 	}
 }

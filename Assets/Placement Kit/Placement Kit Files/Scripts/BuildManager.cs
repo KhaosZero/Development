@@ -51,7 +51,7 @@ public class BuildManager: MonoBehaviour
 		if(Input.GetMouseButtonDown(1) && (SelectedBuilding != 0 || SelectedBuilding != null)) {
 
 			if(SelectedBuilding == building.TavernElement) {
-			refund.Add (building.Tavern1_PlankCost, building.Tavern1_WoodCost, building.Tavern1_SlabCost, building.Tavern1_GoldCost, building.Tavern1_IronCost, building.Tavern1_IngotCost);
+			refund.Add (building.Tavern1_PlankCost, building.Tavern1_WoodCost, building.Tavern1_StoneCost, building.Tavern1_SlabCost, building.Tavern1_GoldCost, building.Tavern1_IronCost, building.Tavern1_IngotCost);
 			}
 			SelectedBuilding = 0;
 		}

@@ -76,10 +76,11 @@ public class ResourceManager : MonoBehaviour {
 	}
 
 
-	public void Add (int addPlanks, int addWood, int addSlabs, int addGold, int addIron, int addIngots) {
+	public void Add (int addPlanks, int addWood, int addStone, int addSlabs, int addGold, int addIron, int addIngots) {
 		Planks += addPlanks;
 		Wood += addWood;
 		Slabs += addSlabs;
+		Stone += addStone;
 		Gold += addGold;
 		Iron += addIron;
 		Ingots += addIngots;

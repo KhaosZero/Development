@@ -20,6 +20,8 @@ public class Player : MonoBehaviour {
 	NavMeshAgent agent;
 	private bool newPath;
 	private Vector3 oldDestination;
+	private bool rotLastFrameLogged = false;
+	private Vector3 rotLastFrame;
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
@@ -31,12 +33,17 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
+		if(reachedDest == false && rotLastFrameLogged == false) {
+			rotLastFrame = new Vector3 (this.transform.eulerAngles.x, this.transform.eulerAngles.y, this.transform.eulerAngles.z);
+			rotLastFrameLogged = true;
+		}
 		if(oldDestination != agent.destination) {
 			
 			oldDestination = agent.destination;
 			newPath = true;
+			reachedDest = false;
 		}
-
+		
 		//Run this check so long as we have not reached our destination (our distance > stopping Distance
 		if ( Vector3.Distance( agent.destination, agent.transform.position) <= agent.stoppingDistance)
 		{
@@ -48,16 +55,19 @@ public class Player : MonoBehaviour {
 				//We've reached our destination
 				reachedDest = true;
 				newPath = false;
+
+				transform.eulerAngles = rotLastFrame;
 			}
 			
 		}
 		//If we havn't reached our destination
 		if(reachedDest == false || newPath == true) {
 			//Walk!
+			rotLastFrameLogged = false;
 			animator.SetInteger ("AnimState", 1);
 		}
-
-
+		
+		
 		
 	}
 }
