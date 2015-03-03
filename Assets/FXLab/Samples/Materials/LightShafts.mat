@@ -30,20 +30,20 @@ Material:
     m_Floats:
       data:
         first:
-          name: _Bias
-        second: .100000001
-      data:
-        first:
-          name: _Brightness
-        second: .699999988
-      data:
-        first:
           name: _BlurRange
         second: 10
       data:
         first:
           name: _Contrast
         second: 1
+      data:
+        first:
+          name: _Brightness
+        second: .100000001
+      data:
+        first:
+          name: _Bias
+        second: .100000001
       data:
         first:
           name: _StepSize

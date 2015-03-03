@@ -37,20 +37,20 @@ Material:
     m_Floats:
       data:
         first:
-          name: _Bias
-        second: 0
-      data:
-        first:
-          name: _Brightness
-        second: .400000006
-      data:
-        first:
           name: _BlurRange
-        second: 10
+        second: 15
       data:
         first:
           name: _Contrast
         second: 1.20000005
+      data:
+        first:
+          name: _Brightness
+        second: .100000001
+      data:
+        first:
+          name: _Bias
+        second: .899999976
     m_Colors:
       data:
         first:
