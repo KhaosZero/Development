@@ -52,7 +52,7 @@ Material:
       data:
         first:
           name: _BlurRange
-        second: 9
+        second: 4
       data:
         first:
           name: _Falloff
@@ -68,15 +68,15 @@ Material:
       data:
         first:
           name: _FocalFalloff
-        second: 125
+        second: 100
       data:
         first:
           name: _FocalDistance
-        second: 65
+        second: 5
       data:
         first:
           name: _FocalRange
-        second: 25
+        second: 20
       data:
         first:
           name: _MaxDepth

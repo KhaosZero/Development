@@ -48,3 +48,19 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Main Menu
+    userID: 1
+    uniqueID: 730403627
+    locked: 0
+  - name: Main Menu Scene select
+    userID: 4
+    uniqueID: 1406050889
+    locked: 0
+  - name: Main Menu Options
+    userID: 2
+    uniqueID: 2919371531
+    locked: 0
+  - name: Main Menu Exit
+    userID: 3
+    uniqueID: 1632606359
+    locked: 0
